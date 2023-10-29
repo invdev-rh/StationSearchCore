@@ -8,8 +8,6 @@
             Array.from(document.getElementsByClassName('btn')).forEach(function (btn) {
 
                 var found = false;
-
-                console.warn(data);
                 
                 data.nextPossibleCharacters.forEach(function (c) {
                     if (c == btn.innerHTML) {
